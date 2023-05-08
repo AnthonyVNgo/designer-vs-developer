@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* .hasCircle{
+  width:150px;
+  height:150px;
+  height:50px;
+  position:relative;
+  overflow:hidden;
+  display: flex;
+  align-items: center;
+} */
+.hasCircle:after{
+  content:" ";
+  position:absolute;
+  left:0; right:0;
+  width:150px;
+  height:50px;
+  border-radius: 100px 100px;
+  box-shadow: 0 0 0 1000px #ffffff;
+  /* box-shadow: 0 0 0 1000px #ffffff67; */
+  /* box-shadow: 0 0 0 1000px #44444482; */
+}
