@@ -52,11 +52,11 @@ const Button = () => {
           </div>
         </div>
         <div className='w-full'>
-          <div className='flex text-white'>
-            <span>clouds</span>
-          </div>
-          <div className='flex text-white'>
-            <span>clouds</span>
+          <div className='relative'>
+            <span className='w-14 h-14 bg-white absolute rounded-full -right-3 bottom-0'></span>
+            <span className='w-12 h-12 bg-white absolute rounded-full -bottom-4 right-7'></span>
+            <span className='w-12 h-12 bg-white absolute rounded-full left-12 -bottom-7'></span>
+            <span className='w-12 h-12 bg-white absolute rounded-full left-3 -bottom-9'></span>
           </div>
         </div>
       </div>
