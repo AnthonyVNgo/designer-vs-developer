@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+.hasCircle:after{
+  content:" ";
+  position:absolute;
+  left:0; right:0;
+  width:160px;
+  height:60px;
+  border-radius: 100px 100px;
+  box-shadow: 0 0 0 1000px #ffffff;
+}
+.hasCircle:before{
+  content:" ";
+  position:absolute;
+  left:0; right:0;
+  width:160px;
+  height:60px;
+  border-radius: 100px 100px;
+  box-shadow: 0px 1px 5px 3px inset #00000063;
+  z-index: 200;
+}
+
+/* https://stackoverflow.com/questions/26654788/how-to-create-a-transparent-circle */
